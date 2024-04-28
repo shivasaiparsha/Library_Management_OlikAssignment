@@ -33,6 +33,6 @@ public class RentalReturnTest {
 
          String actualMessage=rentalServiceImplementation.bookReturn(1);
 
-        Assertions.assertEquals(expectedMessage, actualMessagegit);
+        Assertions.assertEquals(expectedMessage, actualMessage);
     }
 }
